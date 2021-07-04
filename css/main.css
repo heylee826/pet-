@@ -5,6 +5,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   font-family: 'Nanum Gothic', sans-serif;
+  min-width: 640px;
 }
 img {
   display: block;
@@ -36,7 +37,7 @@ a {
 
 /* HEADER */
 .header {
-  background-color: cornsilk;
+  background-color: #fff;
   width: 100%;
   position: fixed;
   z-index: 9;
@@ -116,7 +117,6 @@ a {
   width: 100%;
 }
 .visual .visual-cover {
-  background-color: rgba(144, 238, 144, 0.384);
   position: relative;
 }
 .visual .visual-cover .bg-web {
@@ -140,7 +140,6 @@ a {
 }
 .visual .visual-cover .ani ul {
   width: 100%;
-  background-color: rgba(240, 128, 128, 0.397);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1.3fr 1.3fr 1fr;
@@ -271,7 +270,6 @@ a {
 .pet_list .pet_list_in {
   width: 1200px;
   margin: 0 auto;
-  background-color: aqua;
   position: relative;
   z-index: 1;
 }
@@ -389,7 +387,6 @@ a {
 .contact .contact_in {
   width: 1200px;
   margin: 10% auto;
-  background-color: darksalmon;
   position: relative;
 }
 .contact .contact_in .tit {
@@ -403,11 +400,9 @@ a {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  background-color: darkseagreen;
 }
 .contact .contact_in .contact_list .list {
   width: 48%;
-  background-color: deepskyblue;
 }
 .contact .contact_in .contact_list .list p {font-size: 30px; font-weight: 800;}
 .contact .contact_in .contact_list .list input {
@@ -424,7 +419,6 @@ a {
 .contact .contact_in .contact_list .list input:last-child {
   height: 173px;
   margin-bottom: 0;
-  background-color: darkviolet;
   border: 4px solid #000;
   border-radius: 10px;
   
@@ -512,7 +506,7 @@ a {
 @media all and (max-width:1840px){
   /* HEADER */
   .header{
-    background-color: lightgray;
+    /* background-color: lightgray; */
   }
   /* MAIN MENU */
   .header .main-menu-01 {
@@ -536,7 +530,7 @@ a {
   .pet_list .pet_list_in {
     width: 65%;
     margin: 0 auto;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   .pet_list .pet_list_in .pet_bg .tit {
     width: 20%;
@@ -561,7 +555,7 @@ a {
 @media all and (max-width:1400px){
   /* HEADER */
   .header{
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
   }
 
 
@@ -618,7 +612,7 @@ a {
   .contact .contact_in .contact_list .list input:last-child {
     height: 160px;
     margin-bottom: 0;
-    background-color: darkviolet;
+    /* background-color: darkviolet; */
     border: 4px solid #000;
     border-radius: 10px;
   }
@@ -647,6 +641,6 @@ a {
 @media all and (max-width:950px){
   /* HEADER */
   .header{
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
   }
 }

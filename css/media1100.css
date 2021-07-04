@@ -1,5 +1,7 @@
 /* HEADER */
-.header{background-color: lightpink;}
+.header{
+  /* background-color: lightpink; */
+}
 
 
 .header .header_cover .gnb p:nth-child(1) {display: none;}
@@ -15,7 +17,8 @@
 /* MAIN MENU */
 .header .main-menu-01 .menu-close:hover {transform: scale(1.1);}
 .header .main-menu-01 {
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
+  background-color: #fff;
   height: 100vh; width: 100%;
   position: absolute;
   z-index: 10;
@@ -25,7 +28,7 @@
 .header .main-menu-01 .menu_cover {
   flex-direction: column;
   align-items: center;
-  background-color: lime;
+  /* background-color: lime; */
   position: absolute;
   left: 50%; top: 50%;
   transform: translate(-50%,-50%);
@@ -64,13 +67,13 @@ justify-items: center;
 .btn_bar .btn1:nth-child(4) {
 width: 200%;
 margin: 0 auto;
-background-color: rgba(128, 0, 0, 0.164);
+/* background-color: rgba(128, 0, 0, 0.164); */
 }
 .btn_bar .btn1:nth-child(4) p{width: 35%;}
 .btn_bar .btn1:nth-child(5) {
 width: 200%;
 margin: 0 auto;
-background-color: rgba(128, 0, 0, 0.158);
+/* background-color: rgba(128, 0, 0, 0.158); */
 }
 .btn_bar .btn1:nth-child(5) p{width: 35%}
 
@@ -78,7 +81,7 @@ background-color: rgba(128, 0, 0, 0.158);
 .pet_list .pet_list_in {
   width: 90%;
   margin: 0 auto;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .pet_list .pet_list_in .pet_bg .bg_web {display: none;}
 .pet_list .pet_list_in .pet_bg .bg_tablet {display: block;}
@@ -111,7 +114,7 @@ background-color: rgba(128, 0, 0, 0.158);
 .contact .contact_in .contact_list .list input:last-child {
   height: 114px;
   margin-bottom: 0;
-  background-color: darkviolet;
+  /* background-color: darkviolet; */
   border: 4px solid #000;
   border-radius: 10px;
 }

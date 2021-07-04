@@ -1,5 +1,8 @@
 /* HEADER */
-.header{background-color: rgba(0, 139, 139, 0.356);}
+/* body {min-width: 640px;} */
+.header{
+  /* background-color: rgba(0, 139, 139, 0.356); */
+}
 
 
 
@@ -28,7 +31,7 @@
 .pet_list .pet_list_in {
   width: 100%;
   margin: 0 auto;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .pet_list .pet_list_in .pet_bg .bg_tablet {display: none;}
 .pet_list .pet_list_in .pet_bg .bg_mobile {display: block;}

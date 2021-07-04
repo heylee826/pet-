@@ -1,5 +1,7 @@
 /* HEADER */
-.header {background-color: lightskyblue;}
+.header {
+  /* background-color: lightskyblue; */
+}
 .header .header_cover .logo {width: 316px;}
 
 /* .header .header_cover .gnb p:nth-child(1) {display: none;}
