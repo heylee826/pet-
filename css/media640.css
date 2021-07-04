@@ -1,0 +1,66 @@
+/* HEADER */
+.header{background-color: rgba(0, 139, 139, 0.356);}
+
+
+
+
+
+/* VISUAL */
+.visual .visual-cover .bg-web {padding-top: 45px;}
+.visual .visual-cover .bg-web img {display: none;}
+.visual .visual-cover .bg-tablet {display: none;}
+.visual .visual-cover .bg-mobile {display: block;}
+
+.visual .visual-cover .bg-mobile img {width: 150%; margin-left: -26%;}
+/* 양쪽 고앵쓰 멍멍쓰 */
+.side_img .catNdog {display: none;}
+
+
+
+
+
+/* BTN_BAR */ 
+.btn_bar {width: 90%; top: -50px;}
+
+
+
+/* PET LIST */
+.pet_list .pet_list_in {
+  width: 100%;
+  margin: 0 auto;
+  background-color: aqua;
+}
+.pet_list .pet_list_in .pet_bg .bg_tablet {display: none;}
+.pet_list .pet_list_in .pet_bg .bg_mobile {display: block;}
+
+
+.pet_list .pet_list_in .pet_bg .tit {
+  top: 12%;
+  width: 28%;
+}
+.pet_list .pet_list_in .pet_imgs {
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4%;
+  top: 20%;
+}
+.pet_list .pet_list_in .pet_imgs li:nth-child(7) {display: none;}
+.pet_list .pet_list_in .pet_imgs li:nth-child(8) {display: none;}
+.pet_list .pet_list_in .pet_imgs li:nth-child(9) {display: none;}
+
+
+/* CONTACT */
+.contact .contact_in {
+  width: 90%;
+}
+.contact .contact_in .tit {
+  width: 17%;
+}
+.contact .contact_in .contact_list .list {
+  width: 100%;
+}
+.contact .contact_in .btn {
+  bottom: 21%;
+  z-index: 1;
+  padding: 10px;
+  font-size: 18px;
+}

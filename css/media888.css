@@ -1,0 +1,112 @@
+/* HEADER */
+.header {background-color: lightskyblue;}
+.header .header_cover .logo {width: 316px;}
+
+/* .header .header_cover .gnb p:nth-child(1) {display: none;}
+.header .header_cover .gnb p:nth-child(2) {display: none;}
+.header .header_cover .gnb p:nth-child(3) {display: block;}
+.header .main-menu-01 .menu-close {
+  display: block;
+  position: absolute;
+  right: 5%; top: 28px;
+  font-size: 35px;
+  cursor: pointer;
+}
+.header .main-menu-01 .menu-close:hover {transform: scale(1.1);}
+.header .main-menu-01 {
+  background-color: lightsalmon;
+  height: 100vh; width: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: -6000px;
+}
+.header .main-menu-01 .menu_cover {
+  flex-direction: column;
+  align-items: center;
+  background-color: lime;
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+.header .main-menu-01 .menu_cover .depth01 {margin: 5px;}
+.header .main-menu-01 .menu_cover .depth01 p {}
+.header .main-menu-01 .menu_cover .depth01 p  {}
+.header .main-menu-01 .menu_cover .depth02 {display: block;}
+.header .main-menu-01 .menu_cover .depth01 .depth02 {}
+.header .main-menu-01 .menu_cover .depth02 li {} */
+
+
+
+
+/* VISUAL */
+.visual .visual-cover .bg-web {padding-top: 40px;}
+.visual .visual-cover .bg-tablet img {width: 150%; margin-left: -25%;}
+
+.side_img .catNdog .dog {
+  width: 14%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+
+
+
+/* BTN_BAR */
+.btn_bar {top: -60px;}
+.btn_bar .btn1 a {font-size: 14px;}
+
+
+
+/* PET LIST */
+.pet_list .pet_list_in .pet_imgs {
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 4%;
+  top: 23%;
+}
+.pet_list .pet_list_in .btn {
+  bottom: 7.5%;
+}
+
+
+
+
+
+/* CONTACT */
+.contact .contact_in {
+  width: 90%;
+  margin: 15% auto;
+}
+.contact .contact_in .contact_list {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact_in .contact_list .list {
+  width: 85%;
+  margin: 0 auto;
+}
+.contact .contact_in .contact_list .banner {
+  width: 100%;
+  /* margin-left: -10%; */
+  margin-top: 30%;
+}
+.contact .contact_in .contact_list .banner .bn_pc {display: none;}
+.contact .contact_in .contact_list .banner .bn_t {display: block;}
+.contact .contact_in .btn {
+  bottom: 24%;
+  z-index: 1;
+  font-size: 22px;
+  padding: 10px;
+}
+
+
+
+/* FOOTER */
+.footer .footerin .finfo p{
+  font-size: 0.7em;
+  text-align: center;
+}
+
+
+

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>종합유기견보호센터</title>
+
+    <!-- 파비콘 -->
+    <link rel="icon" href="./favicon.ico">
+    <!-- 브라우저 스타일 초기화 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!--Google Fonts - 나눔고딕-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <!--Google Material Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="./css/media1100.css" />
+    <link rel="stylesheet" media="screen and (max-width: 888px)" href="./css/media888.css" />
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="./css/media640.css" />
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+        integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"
+        integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="./js/main.js"></script>
+
+
+
+</head>
+<body>
+    <div id="wrap">
+        <header class="header">
+            <div class="inner">
+                <div class="header_cover">
+                    <a href="/" class="logo">
+                        <img src="./img/logo.png" alt="종합유기견보호센터로고">
+                    </a>
+
+                    <div class="gnb">
+                        <p class="material-icons">star_outline</p>
+                        <p class="material-icons">perm_identity</p>
+                        <p class="material-icons menu-bar">menu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="inner">
+                <div class="main-menu-01">
+                    <p class="material-icons menu-close">close</p>
+                    <ul class="menu_cover">
+                        <li class="depth01">
+                            <p><img src="./img/gnb_1.png" alt="반려동물찾습니다"></p>
+                            <ul class="depth02">
+                                <li>지역별로 찾기</li>
+                                <li>동물별로 찾기</li>
+                            </ul>
+                        </li>
+                        <li class="depth01">
+                            <p><img src="./img/gnb_2.png" alt="보호중인반려동물"></p>
+                            <ul class="depth02">
+                                <li>지역별로 보기</li>
+                                <li>동물별로 보기</li>
+                            </ul>
+                        </li>
+                        <li class="depth01">
+                            <p><img src="./img/gnb_3.png" alt="반려동물지식정보"></p>
+                            <ul class="depth02">
+                                <li>강아지</li>
+                                <li>고양이</li>
+                                <li>기타동물</li>
+                            </ul>
+                        </li>
+                        <li class="depth01">
+                            <p><img src="./img/gnb_4.png" alt="자원봉사&후원요청"></p>
+                            <ul class="depth02">
+                                <li>자원봉사모집</li>
+                                <li>후원요청</li>
+                            </ul>
+                        </li>
+                        <li class="depth01">
+                            <p><img src="./img/gnb_5.png" alt="커뮤니티"></p>
+                            <ul class="depth02">
+                                <li>자유게시판</li>
+                                <li>분양</li>
+                                <li>입양</li>
+                                <li>찾은 후기</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- inner -->
+        </header><!-- header -->
+
+        <section class="visual">
+            <div class="visual-cover">
+                <div class="bg-web"><img src="./img/main_bg_w_txt.png" alt="웹비주얼배경"></div>
+                <div class="bg-tablet"><img src="./img/main_visual_tablet.png" alt="타블랫비주얼배경"></div>
+                <div class="bg-mobile"><img src="./img/main_visual_mobile.png" alt="모바일비줄배경"></div>
+                <div class="ani">
+                    <ul>
+                        <li><img src="img/ani_1.png" alt="" class="off"><img src="img/ani_1_on.png" alt="" class="on"></li>
+                        <li><img src="img/ani_2.png" alt="" class="off"><img src="img/ani_2_on.png" alt="" class="on"></li>
+                        <li><img src="img/ani_3.png" alt="" class="off"><img src="img/ani_3_on.png" alt="" class="on"></li>
+                        <li><img src="img/ani_4.png" alt="" class="off"><img src="img/ani_4_on.png" alt="" class="on"></li>
+                        <li><img src="img/ani_5.png" alt="" class="off ball"><img src="img/ani_5_on.png" alt="" class="on ball_on"></li>
+                        <li><img src="img/ani_6.png" alt="" class="off"><img src="img/ani_6_on.png" alt="" class="on"></li>
+                        <li><img src="img/ani_7.png" alt="" class="off"><img src="img/ani_7_on.png" alt="" class="on"></li>
+                        <li><img src="img/ani_8.png" alt="" class="off"><img src="img/ani_8_on.png" alt="" class="on"></li>
+                        <li><img src="img/ani_9.png" alt="" class="off"><img src="img/ani_9_on.png" alt="" class="on"></li>
+                    </ul>
+                </div><!--ani-->
+            </div><!-- visual-cover -->
+
+
+            <div class="side_img">
+                <div class="catNdog">
+                    <p class="cat">
+                        <img src="img/cat_left.png" alt="" class="cat_body">
+                        <img src="img/cat_left_on.png" alt="" class="cat_on">
+                    </p>
+                    <p class="dog">
+                        <img src="img/dog_right2.png" alt="" class="dog_body">
+                        <img src="img/dog_right_on.png" alt="" class="dog_on">
+                    </p>
+                </div>
+                <p class="chatt">
+                    <a href="javascript:void(0)"><img src="img/chatt_icon.png" alt=""></a>
+                </p>
+            </div><!--side_img-->
+        </section><!-- visual -->
+
+
+        <section class="btn_bar">
+            <div class="btn1">
+                <p><img src="./img/btnbar_1.png" alt="분양유의사항버튼" class="off"></p>
+                <p><img src="./img/btnbar_1_on.png" alt="" class="on"></p>
+                <a href="javascript:void(0)">분양유의사항</a>
+            </div>
+            <div class="btn1">
+                <p><img src="./img/btnbar_2.png" alt="강아지무료분양버튼" class="off"></p>
+                <p><img src="./img/btnbar_2_on.png" alt="" class="on"></p>
+                <a href="javascript:void(0)">강아지무료분양</a>
+            </div>
+            <div class="btn1">
+                <p><img src="./img/btnbar_3.png" alt="고양이무료분양버튼" class="off"></p>
+                <p><img src="./img/btnbar_3_on.png" alt="" class="on"></p>
+                <a href="javascript:void(0)">고양이무료분양</a>
+            </div>
+            <div class="btn1">
+                <p><img src="./img/btnbar_4.png" alt="기타동물무료분양버튼" class="off"></p>
+                <p><img src="./img/btnbar_4_on.png" alt="" class="on"></p>
+                <a href="javascript:void(0)">기타동물무료분양버튼</a>
+            </div>
+            <div class="btn1">
+                <p><img src="./img/btnbar_5.png" alt="유기동물찾는방법버튼" class="off"></p>
+                <p><img src="./img/btnbar_5_on.png" alt="" class="on"></p>
+                <a href="javascript:void(0)">유기동물찾는방법</a>
+            </div>
+        </section><!-- btn_bar -->
+
+        <section class="pet_list">
+            <div class="pet_list_in">
+                <div class="pet_bg">
+                    <p class="tit"><img src="./img/pet_list_tit.png" alt="보호중인동물"></p>
+                    <p class="bg_web"><img src="./img/pet_list_bg.png" alt="동물목록배경 웹용"></p>
+                    <p class="bg_tablet"><img src="./img/pet_list_bg_tablet.png" alt="동물목록배경 타블랫용"></p>
+                    <p class="bg_mobile"><img src="./img/pet_list_bg_mobile.png" alt="동물목록배경 모바일용"></p>
+                </div><!-- pet_bg -->
+                <ul class="pet_imgs">
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img01.png" alt="보호동물1"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img02.png" alt="보호동물2"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img03.png" alt="보호동물3"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img04.png" alt="보호동물4"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img05.png" alt="보호동물5"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img06.png" alt="보호동물6"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img07.png" alt="보호동물7"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img08.png" alt="보호동물8"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img09.png" alt="보호동물9"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img10.png" alt="보호동물10"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img11.png" alt="보호동물11"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <p class="pet_img"><img src="./img/pet_list_img12.png" alt="보호동물12"></p>
+                        <dl class="pet_txt">
+                            <dt>&#91;울산&#93; 언양 금아드림팰리스쪽에서 발견했어요.</dt>
+                            <dd>삼남면에 금아 드림팰리스 지하주차장 3층에서 발견했어요 차 밑에 계속 있던 아이입니다.</dd>
+                        </dl>
+                    </li>
+                </ul><!-- pet_imgs -->
+                <div class="btn">more</div>
+            </div><!-- pet_list_in -->
+            <div class="side_imgs">
+                <div class="side_img_in">
+                    <p class="catpaw"><img src="img/bg_catpaw.png" alt="고양이손"></p>
+                    <p class="footprint"><img src="img/bg_paw.png" alt="발자국들"></p>
+                </div>
+            </div>
+        </section><!-- pet_list -->
+
+        <section class="contact">
+
+            <div class="contact_in">
+                <div class="tit"><img src="./img/contact_tit.png" alt="연락하기"></div>
+                <div class="contact_list">
+                    <div class="list">
+                        <p>이름</p>
+                        <input type="text" placeholder="이름을 임력하세요">
+                        <p>연락처</p>
+                        <input type="text" placeholder="연락처를 입력하세요">
+                        <p>문의사항</p>
+                        <input type="text" placeholder="문의사항을 입력하세요">
+                    </div><!-- list -->
+                    <div class="banner">
+                        <p class="bn_pc"><img src="img/contact_banner.png" alt="배너웹용"></p>
+                        <p class="bn_t"><img src="img/contact_banner_mobile.png" alt="배너모바일타블랫용"></p>
+                    </div><!-- banner -->
+                </div><!-- contact_list -->
+                <div class="btn"><p>보내기</p></div><!--btn-->
+            </div><!-- contact_in -->
+        </section><!-- contact -->
+        
+        <footer class="footer">
+            <div class="footerin">
+                <div class="flogo">
+                    <img src="img/logo_footer.png" alt="">
+                </div><!--flogo-->
+                <div class="finfo">
+                    <p>상호 : ㈜상상유니버스  |  유기견보호센터  |  서울특별시 마포구 독막로28길 10  |  대표자  :  이금호  |  개인정보취급방침<br>사업자번호  :  898 -  87 - 00897  |   상담센터 [ 상담문의하기 ] ( 상담시간 10 : 00 ~ 16 : 00, 토일 휴무 )  |  개인정보관리자 : 이금호<br>동물판매업 등록번호 : 제 3130000 - 037 - 2018 - 0050 호  |  통신판매업 등록번호 : 제2020 - 서울마포 - 0181호<br>E - mail : master@zooseyo.com Copyrightⓒ 2013 종합유기견보호센터 All Rights Reserved. </p>
+                </div><!--finfo-->
+            </div><!--footerin-->
+        </footer><!--footer-->
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>

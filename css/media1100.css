@@ -1,0 +1,137 @@
+/* HEADER */
+.header{background-color: lightpink;}
+
+
+.header .header_cover .gnb p:nth-child(1) {display: none;}
+.header .header_cover .gnb p:nth-child(2) {display: none;}
+.header .header_cover .gnb p:nth-child(3) {display: block;}
+.header .main-menu-01 .menu-close {
+  display: block;
+  position: absolute;
+  right: 5%; top: 28px;
+  font-size: 35px;
+  cursor: pointer;
+}
+/* MAIN MENU */
+.header .main-menu-01 .menu-close:hover {transform: scale(1.1);}
+.header .main-menu-01 {
+  background-color: lightsalmon;
+  height: 100vh; width: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: -6000px;
+}
+.header .main-menu-01 .menu_cover {
+  flex-direction: column;
+  align-items: center;
+  background-color: lime;
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%,-50%);
+  /* display: none; */
+}
+.header .main-menu-01 .menu_cover .depth01 {margin: 5px;}
+.header .main-menu-01 .menu_cover .depth01 p {}
+.header .main-menu-01 .menu_cover .depth01 p  {}
+.header .main-menu-01 .menu_cover .depth02 {display: block; margin-top: 10px;}
+.header .main-menu-01 .menu_cover .depth01 .depth02 {}
+.header .main-menu-01 .menu_cover .depth02 li {}
+
+/* VISUAL */
+.visual .visual-cover .ani {top: 58.5%;}
+.side_img .chatt{width: 180px; bottom: 28%;}
+.visual .visual-cover .bg-web {padding-top: 70px;}
+.visual .visual-cover .bg-web img {display: none;}
+.visual .visual-cover .bg-tablet {display: block;}
+.visual .visual-cover .bg-tablet img {width: 140%; margin-left: -20%;}
+/* 9마리동물 영역 */
+.visual .visual-cover .ani {display: none;}
+
+
+
+
+/* BTN_BAR */ 
+.btn_bar {
+width: 60%;
+top: -75px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+}
+.btn_bar .btn1 {width: 100%;}
+.btn_bar .btn1  p {width: 70%;}
+.btn_bar .btn1:nth-child(4) {
+width: 200%;
+margin: 0 auto;
+background-color: rgba(128, 0, 0, 0.164);
+}
+.btn_bar .btn1:nth-child(4) p{width: 35%;}
+.btn_bar .btn1:nth-child(5) {
+width: 200%;
+margin: 0 auto;
+background-color: rgba(128, 0, 0, 0.158);
+}
+.btn_bar .btn1:nth-child(5) p{width: 35%}
+
+/* PET LIST */
+.pet_list .pet_list_in {
+  width: 90%;
+  margin: 0 auto;
+  background-color: aqua;
+}
+.pet_list .pet_list_in .pet_bg .bg_web {display: none;}
+.pet_list .pet_list_in .pet_bg .bg_tablet {display: block;}
+
+.pet_list .pet_list_in .pet_bg .tit {
+  top: 15%;
+}
+.pet_list .pet_list_in .pet_imgs {
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 80px;
+  top: 23%;
+}
+.pet_list .pet_list_in .pet_imgs li:nth-child(10) {display: none;}
+.pet_list .pet_list_in .pet_imgs li:nth-child(11) {display: none;}
+.pet_list .pet_list_in .pet_imgs li:nth-child(12) {display: none;}
+.pet_list .pet_list_in .btn {
+  bottom: 8%;
+}
+.pet_list .side_imgs {display: none;}
+
+
+
+
+/* CONTACT */
+.contact .contact_in {
+  width: 850px;
+  margin-bottom: 15%;
+}
+
+.contact .contact_in .contact_list .list input:last-child {
+  height: 114px;
+  margin-bottom: 0;
+  background-color: darkviolet;
+  border: 4px solid #000;
+  border-radius: 10px;
+}
+
+
+
+
+/* FOOTER */
+.footer{
+  width: 100%;
+  background-color: #3e3e3e;
+}
+.footer .footerin{
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footerin .flogo{
+  width: 30%;
+}
+.footer .footerin .finfo p{
+  font-size: 0.8em;
+  text-align: center;
+}
